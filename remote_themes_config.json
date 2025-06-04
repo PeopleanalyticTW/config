@@ -1,0 +1,61 @@
+{
+  "themes": [
+    {
+      "id": "sales",
+      "name": "銷售分析",
+      "icon": "💰",
+      "description": "專注於銷售數據、收入、轉換率等商業指標分析"
+    },
+    {
+      "id": "marketing",
+      "name": "行銷成效",
+      "icon": "📊",
+      "description": "分析廣告投放、用戶獲取、品牌曝光等行銷數據"
+    },
+    {
+      "id": "operations",
+      "name": "營運監控",
+      "icon": "⚙️",
+      "description": "關注系統性能、用戶行為、服務品質等營運指標"
+    },
+    {
+      "id": "finance",
+      "name": "財務分析",
+      "icon": "💼",
+      "description": "深入分析財務報表、成本結構、投資回報等財務數據"
+    },
+    {
+      "id": "product",
+      "name": "產品分析",
+      "icon": "🚀",
+      "description": "產品使用情況、功能效果、用戶反饋等產品數據分析"
+    },
+    {
+      "id": "customer",
+      "name": "客戶洞察",
+      "icon": "👥",
+      "description": "客戶行為、滿意度、生命週期價值等客戶數據分析"
+    },
+    {
+      "id": "competitive",
+      "name": "競爭分析",
+      "icon": "🏆",
+      "description": "市場競爭、對手表現、行業趨勢等競爭情報分析"
+    },
+    {
+      "id": "risk",
+      "name": "風險評估",
+      "icon": "⚠️",
+      "description": "識別潛在風險、異常檢測、合規性檢查等風險管理"
+    },
+    {
+      "id": "general",
+      "name": "通用分析",
+      "icon": "📈",
+      "description": "全面的數據分析，適用於各種類型的數據"
+    }
+  ],
+  "default_theme": "general",
+  "last_updated": "2025-06-04T09:30:00Z",
+  "version": "1.3.0"
+} 

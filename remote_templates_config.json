@@ -1,0 +1,47 @@
+{
+  "templates": [
+    {
+      "id": "comprehensive",
+      "name": "全面分析",
+      "description": "詳細的綜合分析報告，包含深度洞察和建議"
+    },
+    {
+      "id": "executive",
+      "name": "執行摘要",
+      "description": "簡潔的高層摘要，突出關鍵發現和行動項目"
+    },
+    {
+      "id": "technical",
+      "name": "技術分析",
+      "description": "深入的技術細節分析，適合專業人員"
+    },
+    {
+      "id": "visual",
+      "name": "視覺化重點",
+      "description": "著重於圖表解讀和視覺化數據分析"
+    },
+    {
+      "id": "actionable",
+      "name": "行動導向",
+      "description": "專注於可執行的建議和具體行動步驟"
+    },
+    {
+      "id": "comparative",
+      "name": "比較分析",
+      "description": "對比不同時期、類別或指標的變化趨勢"
+    },
+    {
+      "id": "predictive",
+      "name": "預測分析",
+      "description": "基於當前數據預測未來趨勢和可能結果"
+    },
+    {
+      "id": "problem_solving",
+      "name": "問題解決",
+      "description": "識別問題、分析原因並提供解決方案"
+    }
+  ],
+  "default_template": "comprehensive",
+  "last_updated": "2025-06-04T09:30:00Z",
+  "version": "1.1.0"
+} 
