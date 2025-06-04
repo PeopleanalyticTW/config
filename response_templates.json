@@ -1,0 +1,26 @@
+{
+  "templates": [
+    {
+      "id": "comprehensive",
+      "name": "全面分析",
+      "description": "詳細的綜合分析報告",
+      "template": "## 📊 數據分析報告\n\n### 📈 主要趨勢\n{trends}\n\n### 🔍 關鍵指標\n{key_metrics}\n\n### ⚠️ 重要發現\n{findings}\n\n### 💡 洞察與建議\n{insights}\n\n### 📝 結論\n{conclusion}",
+      "system_prompt": "請按照指定格式提供結構化的數據分析。針對 {trends}, {key_metrics}, {findings}, {insights}, {conclusion} 這些部分分別提供具體內容。"
+    },
+    {
+      "id": "executive",
+      "name": "執行摘要",
+      "description": "簡潔的高階管理報告",
+      "template": "## 🎯 執行摘要\n\n### 核心發現\n{summary}\n\n### 關鍵數據\n{key_data}\n\n### 立即行動建議\n{actions}",
+      "system_prompt": "提供簡潔的執行層級摘要，重點關注 {summary}, {key_data}, {actions} 三個核心部分。"
+    },
+    {
+      "id": "technical",
+      "name": "技術分析",
+      "description": "深入的技術數據分析",
+      "template": "## 🔬 技術分析報告\n\n### 數據概覽\n{overview}\n\n### 統計分析\n{statistics}\n\n### 異常檢測\n{anomalies}\n\n### 趨勢預測\n{predictions}\n\n### 技術建議\n{technical_advice}",
+      "system_prompt": "提供技術導向的深度分析，包含 {overview}, {statistics}, {anomalies}, {predictions}, {technical_advice} 等技術細節。"
+    }
+  ],
+  "default_template": "comprehensive"
+} 
