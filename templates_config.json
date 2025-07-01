@@ -1,13 +1,6 @@
 {
   "templates": [
     {
-      "id": "comprehensive",
-      "name": "全面分析",
-      "description": "詳細的綜合分析報告",
-      "template": "## 📊 數據分析報告\n\n### 📈 主要趨勢\n{trends}\n\n### 🔍 關鍵指標\n{key_metrics}\n\n### ⚠️ 重要發現\n{findings}\n\n### 💡 洞察與建議\n{insights}\n\n### 📝 結論\n{conclusion}",
-      "system_prompt": "請按照指定格式提供結構化的數據分析。針對 {trends}, {key_metrics}, {findings}, {insights}, {conclusion} 這些部分分別提供具體內容。"
-    },
-    {
       "id": "executive",
       "name": "執行摘要",
       "description": "簡潔的高階管理報告",
@@ -15,12 +8,42 @@
       "system_prompt": "提供簡潔的執行層級摘要，重點關注 {summary}, {key_data}, {actions} 三個核心部分。"
     },
     {
-      "id": "technical",
-      "name": "技術分析",
-      "description": "深入的技術數據分析",
-      "template": "## 🔬 技術分析報告\n\n### 數據概覽\n{overview}\n\n### 統計分析\n{statistics}\n\n### 異常檢測\n{anomalies}\n\n### 趨勢預測\n{predictions}\n\n### 技術建議\n{technical_advice}",
-      "system_prompt": "提供技術導向的深度分析，包含 {overview}, {statistics}, {anomalies}, {predictions}, {technical_advice} 等技術細節。"
+      "id": "hr_summary",
+      "name": "人力資源摘要",
+      "description": "概述招募、留任與培訓等HR指標",
+      "template": "## 👥 人力資源報告\n\n### 招募狀況\n{recruitment}\n\n### 留任率\n{retention}\n\n### 員工滿意度\n{satisfaction}\n\n### 培訓成效\n{training}\n\n### 總結\n{conclusion}",
+      "system_prompt": "請以HR視角分析 {recruitment}, {retention}, {satisfaction}, {training}, {conclusion} 等項目並生成報告。"
+    },
+    {
+      "id": "hr_recruitment",
+      "name": "招募分析",
+      "description": "評估招募流程與管道效益",
+      "template": "## 📝 招募報告\n\n### 渠道表現\n{channels}\n\n### 面試轉換\n{interview}\n\n### 錄取情況\n{hire_rate}\n\n### 建議\n{advice}",
+      "system_prompt": "以HR視角評估招募流程與管道，包括 {channels}, {interview}, {hire_rate}, {advice}。"
+    },
+    {
+      "id": "hr_retention",
+      "name": "留任分析",
+      "description": "分析員工流失與留任驅動因素",
+      "template": "## 🔄 留任分析\n\n### 流失率\n{turnover}\n\n### 留任因素\n{drivers}\n\n### 改進策略\n{strategies}",
+      "system_prompt": "分析 {turnover}, {drivers}, {strategies}，提出留任建議。"
+    },
+    {
+      "id": "hr_training",
+      "name": "培訓發展",
+      "description": "檢視員工培訓與發展計劃成效",
+      "template": "## 📚 培訓報告\n\n### 培訓參與\n{participation}\n\n### 技能提升\n{skills}\n\n### ROI\n{roi}\n\n### 後續計劃\n{next_steps}",
+      "system_prompt": "評估 {participation}, {skills}, {roi}, {next_steps} 以分析培訓成效。"
+    },
+    {
+      "id": "hr_performance",
+      "name": "績效評估",
+      "description": "檢視員工績效表現與考核",
+      "template": "## 📈 績效評估\n\n### 整體表現\n{overall}\n\n### 高績效因子\n{strengths}\n\n### 改進空間\n{improvements}\n\n### 建議\n{recommendations}",
+      "system_prompt": "分析 {overall}, {strengths}, {improvements}, {recommendations}，並提出績效提升策略。"
     }
   ],
-  "default_template": "comprehensive"
-} 
+  "default_template": "hr_summary",
+  "last_updated": "2025-06-05T09:30:00Z",
+  "version": "1.4.0"
+}
