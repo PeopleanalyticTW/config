@@ -41,6 +41,13 @@
       "description": "檢視員工績效表現與考核",
       "template": "## 📈 績效評估\n\n### 整體表現\n{overall}\n\n### 高績效因子\n{strengths}\n\n### 改進空間\n{improvements}\n\n### 建議\n{recommendations}",
       "system_prompt": "分析 {overall}, {strengths}, {improvements}, {recommendations}，並提出績效提升策略。"
+    },
+    {
+      "id": "hr_test",
+      "name": "測試",
+      "description": "測試",
+      "template": "測試",
+      "system_prompt": "測試"
     }
   ],
   "default_template": "hr_summary",
